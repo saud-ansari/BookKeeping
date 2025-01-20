@@ -1,7 +1,7 @@
 import React from 'react'
 import Summary from './SummaryCard/Summary'
 import { Col, Container, Row } from 'react-bootstrap'
-
+import TransactionTable from './Transaction/TransactionTable'
 
 const Dashboard = () => {
   return (
@@ -14,7 +14,7 @@ const Dashboard = () => {
           <Col>
           </Col>
         </Row>
-       
+        <TransactionTable />
 
       </Container>
     </>
