@@ -2,7 +2,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import './Footer.css';
-import { Facebook, Instagram, Linkedin, Twitter } from 'react-bootstrap-icons';
+import { Collection, Facebook, Instagram, JournalBookmarkFill, Linkedin, Twitter } from 'react-bootstrap-icons';
 
 const Footer = () => (
   <footer className="py-4 border-top" >
@@ -37,7 +37,7 @@ const Footer = () => (
         </Col>
 
         <Col xs={12} md={4} className="text-center text-md-end">
-          <h5>Bench Bookkeeping</h5>
+          <h5 style={{color:'#FCD260'}}><JournalBookmarkFill/>Bookkeeping</h5>
           <p className="links mb-0">&copy; {new Date().getFullYear()} All rights reserved.</p>
         </Col>
       </Row>
