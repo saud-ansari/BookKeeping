@@ -1,9 +1,8 @@
-.summary-section{
- background-color: #062d60de;
- color: #F7F8FA;
-padding: 20px;
+.summary-section {
+    background-color: #062d60de;
+    padding: 20px;
 }
 
-.transaction-section{
-padding: 20px;
+.transaction-section {
+    padding: 20px;
 }

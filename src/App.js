@@ -3,6 +3,7 @@ import Dashboard from './Components/Dashboard'
 import { Container, Image, Nav, Navbar } from 'react-bootstrap'
 import { ArrowDownUp, BellFill, Boxes, ClipboardData, GearFill, JournalBookmarkFill, Receipt } from 'react-bootstrap-icons'
 import './App.css';
+import Footer from './Components/FooterComponent/Footer';
 
 const App = () => {
   return (
@@ -48,6 +49,7 @@ const App = () => {
         </Container>
       </Navbar>
       <Dashboard />
+      <Footer />
     </>
   )
 }

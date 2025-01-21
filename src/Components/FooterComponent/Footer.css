@@ -1,0 +1,14 @@
+/* Footer.css */
+footer {
+    background-color: #062d60de;
+    color: #f7f8fa;
+}
+
+.links {
+    color: #f7f8fa !important;   
+    text-decoration: none;
+}
+
+.links:hover {
+    color: #FCD269 !important;
+}
