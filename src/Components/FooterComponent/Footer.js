@@ -2,7 +2,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import './Footer.css';
-import { Collection, Facebook, Instagram, JournalBookmarkFill, Linkedin, Twitter } from 'react-bootstrap-icons';
+import { Facebook, Instagram, JournalBookmarkFill, Linkedin, Twitter } from 'react-bootstrap-icons';
 
 const Footer = () => (
   <footer className="py-4 border-top" >

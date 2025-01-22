@@ -7,8 +7,8 @@ const Summary = () => {
     return (
         <>  
             <div className='my-3'>
-            <h1>Welcome, Jennifer</h1>
-            <p>Thanks for coming back. Take a look at yoour Summary.</p>
+            <h1>Welcome, Jhonson</h1>
+            <p>Thanks for coming back. Take a look at your Summary.</p>
             <Row className='text-center bg-light rounded py-3 m-2'>
                 <Col xs={12} lg={4} className='rightBorder px-3'>
                 <Plus size={25} className='text-primary'/> Total Balance

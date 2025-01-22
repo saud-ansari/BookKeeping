@@ -15,7 +15,7 @@ const transactions = [
         description: "Movie tickets",
         fromTo: "Cineplex",
         date: "2025-01-11",
-        amount: "170.00",
+        amount: "₹170.00",
     },
     {
         id: "TXN003",
